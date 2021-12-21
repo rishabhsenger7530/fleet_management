@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'testapi'
+    'car'
 
 ]
 
@@ -116,9 +116,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
-#custom_users 
-AUTH_USER_MODEL = 'testapi.User'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
