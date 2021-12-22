@@ -14,7 +14,7 @@ class CarModel(models.Model):
      model_type = models.CharField(max_length=250)
 
      def __str__(self):
-         return self.model
+         return self.model_type
 
 class Car(models.Model):
     registration_no = models.CharField(max_length=50, unique=True)
